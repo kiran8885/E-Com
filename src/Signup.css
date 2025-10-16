@@ -1,0 +1,109 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Background */
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Signup Container */
+  .signup {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+  }
+  
+  /* Card Styling */
+  .signup__card {
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    text-align: center;
+  }
+  
+  /* Title */
+  .signup__title {
+    font-size: 2rem;
+    color: #2193b0;
+    margin-bottom: 10px;
+  }
+  
+  /* Subtitle */
+  .signup__subtitle {
+    font-size: 1.3rem;
+    margin-bottom: 25px;
+    color: #555;
+  }
+  
+  /* Label */
+  .signup__label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  /* Input Field */
+  .signup__input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1.5px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  .signup__input:focus {
+    border-color: #2193b0;
+    outline: none;
+  }
+  
+  /* Button */
+  .signup__button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2193b0;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .signup__button:hover {
+    background-color: #186b8c;
+  }
+  
+  /* Login Text */
+  .signup__login-text {
+    margin-top: 20px;
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .signup__login-link {
+    color: #2193b0;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-left: 5px;
+  }
+  
+  .signup__login-link:hover {
+    color: #186b8c;
+  }
+  
